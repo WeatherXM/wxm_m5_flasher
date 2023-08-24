@@ -1,0 +1,6 @@
+#ifndef ESPTOOL_STATE_H
+#define ESPTOOL_STATE_H
+
+
+
+#endif // ESPTOOL_STATE_H
