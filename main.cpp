@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-
 #include <QApplication>
 #include <QStyleFactory>
 #include <QPalette>
@@ -7,7 +6,6 @@
 #include "firmware.h"
 #include "const.h"
 #include <QDir>
-//#include "version.h"
 
 int main(int argc, char *argv[])
 {

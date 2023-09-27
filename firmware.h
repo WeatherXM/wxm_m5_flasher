@@ -1,5 +1,6 @@
 #ifndef FIRMWARE_H
 #define FIRMWARE_H
+
 #include <QString>
 #include <QArgument>
 #include <QStringList>

@@ -16,9 +16,6 @@ const QString ESPTOOL_BINARY = "./esptool";
 const QString FW_JSON_PATH = FW_DIR_PATH + "/fw.json";
 
 /** Time to wait for esptool proc to finish before killing */
-//const int ESPTOOL_WAIT_PROC_FINISHED_MS = 1000;
-
-/** Time to wait for esptool proc to finish before killing */
 const int ESPTOOL_WAIT_PROC_FINISHED_MS = 1000;
 
 /** Interval at which serial port list will be refreshed */

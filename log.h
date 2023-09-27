@@ -1,5 +1,6 @@
 #ifndef LOG_H
 #define LOG_H
+
 #include <QFile>
 #include <QtMessageHandler>
 #include "const.h"

@@ -41,7 +41,7 @@ private:
 
     State _cur_state = EspTool::State::IDLE;
 
-    /** Current serial portport */
+    /** Current serial port */
     QString _port = "";
 
     Ret reset();
@@ -55,7 +55,7 @@ signals:
     void on_state_changed(State state, QString data = "");
     void on_data_received(QString line, bool error);
     void on_app_error(QProcess::ProcessError status);
-    void on_app_finished(int exitCode, QProcess::ExitStatus exitStatu);
+    void on_app_finished(int exitCode, QProcess::ExitStatus exitStatus);
 
 };
 
