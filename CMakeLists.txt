@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(Esp32Flasher VERSION 0.1.2 LANGUAGES CXX)
+project(wxm_m5_flasher VERSION 0.1.2 LANGUAGES CXX)
 
 add_definitions(-DPROJECT_VERSION="${PROJECT_VERSION}")
 
