@@ -126,7 +126,6 @@ void MainWindow::esptool_app_error(QProcess::ProcessError error)
 ******************************************************************************/
 void MainWindow::on_btn_run_clicked()
 {
-    static EspTool *tool = nullptr;
     //
     // Start
     //
@@ -295,7 +294,7 @@ void MainWindow::load_serial_port_list()
         ui->lstPorts->addItem(name);
 
         // Was previously selected, set active
-        if(port.systemLocation() == cur_port)
+        if(name == cur_port)
         {
             int index = ui->lstPorts->findText(name);
             if (index != -1)

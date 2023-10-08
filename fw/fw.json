@@ -1,5 +1,5 @@
 {
 	"env": "prod",
-	"cmd": "--chip esp32 --baud 2000000 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0x1000 bootloader-signed.bin 0x10000 partitions.bin 0x15000 ota_data_initial.bin 0x20000 fw_release_0.7.3-signed.bin",
-	"fw_version": "0.7.3"
+	"cmd": "--chip esp32 --baud 2000000 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0x1000 bootloader-signed.bin 0x10000 partitions.bin 0x15000 ota_data_initial.bin 0x20000 fw_release_0.10.1-signed.bin",
+	"fw_version": "0.10.1"
 }

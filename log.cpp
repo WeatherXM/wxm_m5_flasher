@@ -38,7 +38,7 @@ Log::Log()
 void Log::qt_message_handler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
     QString message =
-        QString("%1 - %2\r\n")
+        QString("%1 - %2\n")
                   .arg(QDateTime::currentDateTime().toString("dd-mm-yyyy hh:mm:ss"))
                   .arg(msg);
 
